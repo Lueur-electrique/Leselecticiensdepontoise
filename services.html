@@ -1,0 +1,400 @@
+﻿<!-- =============================================
+     SERVICES.HTML — LES ÉLECTRICIENS DE PONTOISE
+     ============================================= -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Nos services d'électricité : installation, rénovation, dépannage, mise aux normes, éclairage LED, services entreprises. Électricien Paris et Île-de-France." />
+  <meta name="keywords" content="installation électrique Paris, rénovation électrique Île-de-France, dépannage électricien, mise aux normes NF C 15-100, éclairage LED, électricien entreprise" />
+  <title>Nos Services — Les Électriciens de Pontoise | Électricien Paris &amp; Île-de-France</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="index.html" class="nav-logo">
+        <img src="assets/logo.jpg" alt="Logo Les Électriciens de Pontoise" />
+        <div class="nav-logo-text">
+          <span class="name">Les Électriciens de Pontoise</span>
+          <span class="sub">Paris &amp; Île-de-France</span>
+        </div>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="services.html" class="active">Services</a></li>
+        <li><a href="a-propos.html">À Propos</a></li>
+        <li><a href="zone-intervention.html">Zone d'intervention</a></li>
+        <li><a href="galerie.html">Galerie</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a href="tel:0788476897" class="nav-phone">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.4a2 2 0 0 1 1.99-2.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.96a16 16 0 0 0 6.06 6.06l1.85-1.85a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          07 88 47 68 97
+        </a>
+        <a href="contact.html" class="btn btn-primary">Devis gratuit</a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Menu mobile">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <nav class="mobile-nav" id="mobileNav">
+    <ul class="mobile-nav-links">
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="a-propos.html">À Propos</a></li>
+      <li><a href="zone-intervention.html">Zone d'intervention</a></li>
+      <li><a href="galerie.html">Galerie</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="mobile-nav-contact">
+      <a href="tel:0788476897" class="btn btn-primary btn-lg">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.4a2 2 0 0 1 1.99-2.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.96a16 16 0 0 0 6.06 6.06l1.85-1.85a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        07 88 47 68 97
+      </a>
+      <a href="contact.html" class="btn btn-secondary btn-lg">Demander un devis</a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- PAGE HERO -->
+    <section class="page-hero">
+      <div class="container">
+        <span class="eyebrow">Nos expertises</span>
+        <h1>Nos <span class="accent">Services</span></h1>
+        <p>De l'installation au dépannage, nous couvrons l'ensemble de vos besoins en électricité générale pour particuliers et professionnels.</p>
+        <nav class="breadcrumb" aria-label="Fil d'Ariane">
+          <a href="index.html">Accueil</a>
+          <span class="sep">›</span>
+          <span class="current">Nos Services</span>
+        </nav>
+      </div>
+    </section>
+
+    <!-- TABS: Particuliers / Entreprises -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header fade-in">
+          <span class="eyebrow">Choisissez votre profil</span>
+          <h2>Services adaptés à vos besoins</h2>
+        </div>
+
+        <div class="client-tabs fade-in">
+          <button class="tab-btn active" data-tab="tab-all" id="tab-all-btn">Tous nos services</button>
+          <button class="tab-btn" data-tab="tab-particuliers" id="tab-particuliers-btn">Particuliers</button>
+          <button class="tab-btn" data-tab="tab-entreprises" id="tab-entreprises-btn">Entreprises &amp; Tertiaire</button>
+        </div>
+
+        <!-- ALL SERVICES -->
+        <div id="tab-all" class="tab-content active">
+          <div class="services-detail-grid">
+
+            <div class="service-detail-card fade-in">
+              <div class="service-detail-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+              </div>
+              <h3>Installation électrique</h3>
+              <p>Réalisation complète d'installations électriques pour vos constructions neuves, extensions ou réaménagements. Pose de tableaux, câblage, prises et interrupteurs.</p>
+              <div class="service-detail-features">
+                <span class="service-detail-feature">Tableau électrique général &amp; divisionnaire</span>
+                <span class="service-detail-feature">Câblage et tirage de fils</span>
+                <span class="service-detail-feature">Prises, interrupteurs et va-et-vient</span>
+                <span class="service-detail-feature">Disjoncteurs et protections différentielles</span>
+                <span class="service-detail-feature">Attestation de conformité CONSUEL</span>
+              </div>
+            </div>
+
+            <div class="service-detail-card fade-in fade-in-delay-1">
+              <div class="service-detail-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+              </div>
+              <h3>Rénovation électrique</h3>
+              <p>Remise à neuf totale ou partielle de vos installations vieillissantes. Remplacement du tableau, remplacement des fils en aluminium, mise en sécurité.</p>
+              <div class="service-detail-features">
+                <span class="service-detail-feature">Diagnostic complet de l'installation</span>
+                <span class="service-detail-feature">Remplacement tableau électrique</span>
+                <span class="service-detail-feature">Remplacement câblage défectueux</span>
+                <span class="service-detail-feature">Mise en place de protections modernes</span>
+                <span class="service-detail-feature">Rapport de vérification fourni</span>
+              </div>
+            </div>
+
+            <div class="service-detail-card fade-in fade-in-delay-2">
+              <div class="service-detail-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+              </div>
+              <h3>Dépannage d'urgence</h3>
+              <p>Coupure de courant, disjoncteur qui saute, court-circuit, prise défaillante — nous intervenons rapidement pour rétablir votre installation.</p>
+              <div class="service-detail-features">
+                <span class="service-detail-feature">Intervention 7j/7 y compris le week-end</span>
+                <span class="service-detail-feature">Diagnostic précis et rapide</span>
+                <span class="service-detail-feature">Recherche de pannes et court-circuits</span>
+                <span class="service-detail-feature">Remplacement de composants défaillants</span>
+                <span class="service-detail-feature">Disponible toute l'Île-de-France</span>
+              </div>
+            </div>
+
+            <div class="service-detail-card fade-in fade-in-delay-1">
+              <div class="service-detail-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              </div>
+              <h3>Mise aux normes NF C 15-100</h3>
+              <p>Mise en conformité de votre installation électrique selon la norme NF C 15-100 pour la vente, la location ou la sécurisation de votre bien.</p>
+              <div class="service-detail-features">
+                <span class="service-detail-feature">Audit de l'installation existante</span>
+                <span class="service-detail-feature">Rapport de non-conformités</span>
+                <span class="service-detail-feature">Travaux de mise en conformité</span>
+                <span class="service-detail-feature">Protection différentielle 30mA</span>
+                <span class="service-detail-feature">Attestation CONSUEL délivrée</span>
+              </div>
+            </div>
+
+            <div class="service-detail-card fade-in fade-in-delay-2">
+              <div class="service-detail-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+              </div>
+              <h3>Éclairage &amp; LED</h3>
+              <p>Conception, installation et optimisation de vos systèmes d'éclairage intérieur et extérieur. Passage à l'éclairage LED pour réduire votre consommation.</p>
+              <div class="service-detail-features">
+                <span class="service-detail-feature">Spots encastrés et plafonniers LED</span>
+                <span class="service-detail-feature">Éclairage extérieur et détection</span>
+                <span class="service-detail-feature">Variateurs de lumière</span>
+                <span class="service-detail-feature">Éclairage de mise en valeur</span>
+                <span class="service-detail-feature">Domotique et commandes</span>
+              </div>
+            </div>
+
+            <div class="service-detail-card fade-in fade-in-delay-3">
+              <div class="service-detail-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+              </div>
+              <h3>Courants faibles</h3>
+              <p>Câblage réseau RJ45, téléphonie, antenne TV, alarme intrusion, interphone et vidéophonie pour vos locaux résidentiels et professionnels.</p>
+              <div class="service-detail-features">
+                <span class="service-detail-feature">Câblage réseau informatique RJ45</span>
+                <span class="service-detail-feature">Téléphonie et ADSL</span>
+                <span class="service-detail-feature">Antenne TV et distribution</span>
+                <span class="service-detail-feature">Alarme intrusion et vidéosurveillance</span>
+                <span class="service-detail-feature">Interphone et vidéophonie</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- PARTICULIERS -->
+        <div id="tab-particuliers" class="tab-content">
+          <div class="services-detail-grid">
+            <div class="service-detail-card fade-in">
+              <div class="service-detail-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+              </div>
+              <h3>Logements neufs &amp; rénovation</h3>
+              <p>Installation complète pour votre appartement ou maison, neuf ou en rénovation. Devis personnalisé selon vos besoins.</p>
+              <div class="service-detail-features">
+                <span class="service-detail-feature">Tableau électrique neuf</span>
+                <span class="service-detail-feature">Câblage pièce par pièce</span>
+                <span class="service-detail-feature">Cuisine et salle de bains aux normes</span>
+                <span class="service-detail-feature">Prises et interrupteurs design</span>
+              </div>
+            </div>
+
+            <div class="service-detail-card fade-in fade-in-delay-1">
+              <div class="service-detail-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              </div>
+              <h3>Mise aux normes pour vente/location</h3>
+              <p>Obtenez votre attestation de conformité électrique pour vendre ou louer votre bien en toute sérénité.</p>
+              <div class="service-detail-features">
+                <span class="service-detail-feature">Diagnostic électrique complet</span>
+                <span class="service-detail-feature">Travaux de mise en conformité</span>
+                <span class="service-detail-feature">Attestation CONSUEL</span>
+                <span class="service-detail-feature">Délai rapide</span>
+              </div>
+            </div>
+
+            <div class="service-detail-card fade-in fade-in-delay-2">
+              <div class="service-detail-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+              </div>
+              <h3>Dépannage à domicile</h3>
+              <p>Panne de courant, prise défaillante, problème de tableau — nous intervenons rapidement chez vous 7j/7.</p>
+              <div class="service-detail-features">
+                <span class="service-detail-feature">Intervention 7j/7</span>
+                <span class="service-detail-feature">Diagnostic immédiat</span>
+                <span class="service-detail-feature">Devis avant travaux</span>
+                <span class="service-detail-feature">Tarif horaire transparent</span>
+              </div>
+            </div>
+
+            <div class="service-detail-card fade-in fade-in-delay-3">
+              <div class="service-detail-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/></svg>
+              </div>
+              <h3>Éclairage maison &amp; jardin</h3>
+              <p>Spots, luminaires, éclairage extérieur, guirlandes, bornes de jardin — création d'ambiances lumineuses personnalisées.</p>
+              <div class="service-detail-features">
+                <span class="service-detail-feature">Spots LED encastrés</span>
+                <span class="service-detail-feature">Éclairage de terrasse &amp; jardin</span>
+                <span class="service-detail-feature">Détection de mouvement</span>
+                <span class="service-detail-feature">Variateurs et programmation</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ENTREPRISES -->
+        <div id="tab-entreprises" class="tab-content">
+          <div class="services-detail-grid">
+            <div class="service-detail-card fade-in">
+              <div class="service-detail-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+              </div>
+              <h3>Locaux professionnels &amp; tertiaire</h3>
+              <p>Installation et rénovation électrique complète pour bureaux, commerces, restaurants, hôtels et locaux d'activités.</p>
+              <div class="service-detail-features">
+                <span class="service-detail-feature">TGBT (Tableau Général Basse Tension)</span>
+                <span class="service-detail-feature">Tableaux divisionnaires</span>
+                <span class="service-detail-feature">Distribution électrique</span>
+                <span class="service-detail-feature">Alimentation machines et équipements</span>
+              </div>
+            </div>
+
+            <div class="service-detail-card fade-in fade-in-delay-1">
+              <div class="service-detail-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+              </div>
+              <h3>Câblage informatique &amp; réseau</h3>
+              <p>Infrastructure réseau RJ45 Cat 6, baies informatiques, fibre optique et câblage structuré pour vos bureaux et datacenters.</p>
+              <div class="service-detail-features">
+                <span class="service-detail-feature">Câblage RJ45 Cat 6 et Cat 6A</span>
+                <span class="service-detail-feature">Baies de brassage &amp; patch panels</span>
+                <span class="service-detail-feature">Fibre optique</span>
+                <span class="service-detail-feature">Tests et certifications</span>
+              </div>
+            </div>
+
+            <div class="service-detail-card fade-in fade-in-delay-2">
+              <div class="service-detail-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>
+              </div>
+              <h3>Éclairage de sécurité (BAES)</h3>
+              <p>Installation et maintenance des blocs autonomes d'éclairage de sécurité (BAES) conformément à la réglementation ERP.</p>
+              <div class="service-detail-features">
+                <span class="service-detail-feature">BAES d'évacuation et d'ambiance</span>
+                <span class="service-detail-feature">Conformité ERP et code du travail</span>
+                <span class="service-detail-feature">Maintenance et vérification annuelle</span>
+                <span class="service-detail-feature">Rapport de maintenance</span>
+              </div>
+            </div>
+
+            <div class="service-detail-card fade-in fade-in-delay-3">
+              <div class="service-detail-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/></svg>
+              </div>
+              <h3>Éclairage commercial &amp; vitrine</h3>
+              <p>Mise en valeur de vos espaces commerciaux, vitrines et enseignes lumineuses. Éclairage architecturale et de mise en scène.</p>
+              <div class="service-detail-features">
+                <span class="service-detail-feature">Éclairage de vitrine &amp; devanture</span>
+                <span class="service-detail-feature">Enseignes lumineuses et néons LED</span>
+                <span class="service-detail-feature">Éclairage de mise en valeur produits</span>
+                <span class="service-detail-feature">Programmation et domotique</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-banner">
+      <div class="container">
+        <h2>Prêt à démarrer votre projet&nbsp;?</h2>
+        <p>Contactez-nous pour un devis gratuit et personnalisé. Réponse sous 24h.</p>
+        <div class="cta-actions">
+          <a href="contact.html" class="btn btn-dark btn-lg">Demander un devis gratuit</a>
+          <a href="tel:0788476897" class="btn btn-white btn-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.4a2 2 0 0 1 1.99-2.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.96a16 16 0 0 0 6.06 6.06l1.85-1.85a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            07 88 47 68 97
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="assets/logo.jpg" alt="Les Électriciens de Pontoise" />
+          <p>Spécialistes en électricité générale pour particuliers et entreprises du secteur tertiaire en Île-de-France.</p>
+          <p class="footer-slogan">⚡ De l'alpha à l'oméga, éclairez votre monde.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="services.html">Nos services</a></li>
+            <li><a href="a-propos.html">À propos</a></li>
+            <li><a href="zone-intervention.html">Zone d'intervention</a></li>
+            <li><a href="galerie.html">Galerie</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Nos services</h4>
+          <ul class="footer-links">
+            <li><a href="services.html">Installation électrique</a></li>
+            <li><a href="services.html">Rénovation électrique</a></li>
+            <li><a href="services.html">Dépannage d'urgence</a></li>
+            <li><a href="services.html">Mise aux normes</a></li>
+            <li><a href="services.html">Éclairage &amp; LED</a></li>
+            <li><a href="services.html">Services entreprises</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul class="footer-contact-list">
+            <li class="footer-contact-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.4a2 2 0 0 1 1.99-2.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.96a16 16 0 0 0 6.06 6.06l1.85-1.85a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <a href="tel:0788476897">07 88 47 68 97</a>
+            </li>
+            <li class="footer-contact-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <a href="mailto:leselectriciensdepontoise@hotmail.com">leselectriciensdepontoise@hotmail.com</a>
+            </li>
+            <li class="footer-contact-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span>Paris &amp; Île-de-France</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2024 Les Électriciens de Pontoise. Tous droits réservés.</p>
+        <div class="footer-bottom-links">
+          <a href="mentions-legales.html">Mentions légales</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="tel:0788476897" class="float-phone" aria-label="Appeler">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.4a2 2 0 0 1 1.99-2.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.96a16 16 0 0 0 6.06 6.06l1.85-1.85a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
